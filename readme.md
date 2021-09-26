@@ -1,3 +1,40 @@
+# Backend
+
+Open the backend project
+
+`cd blog`
+
+(Optional step because I'm installing some packages) Use venv:
+
+`python3 -m venv venv/ && source venv/bin/activate`
+
+You will need to install additional dependencies for this project
+
+`pip3 install -r requirements.txt`
+
+Run the project:
+
+`python3 manage.py runserver 8000`
+
+# Frontend
+
+`cd client`
+
+Install packages:
+
+`npm i`
+
+Run the project:
+
+`npm run start`
+
+# Where to go from here
+
+- Migrate the markdown files to a database (currently using a serializer but no models)
+- Styling & better UI
+
+# Original Readme:
+
 # Media Suite Coding Exercise
 We’d like you to build a blogging platform!
 
